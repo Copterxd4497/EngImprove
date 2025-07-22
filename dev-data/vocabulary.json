@@ -1,0 +1,182 @@
+[
+  {
+    "word": "apple",
+    "part_of_speech": "noun",
+    "definition": "A common fruit that is red, green, or yellow.",
+    "example": "I eat an apple every day."
+  },
+  {
+    "word": "book",
+    "part_of_speech": "noun",
+    "definition": "A written or printed work with pages.",
+    "example": "She reads a book in the evening."
+  },
+  {
+    "word": "cat",
+    "part_of_speech": "noun",
+    "definition": "A small domestic animal with fur and whiskers.",
+    "example": "The cat is sleeping on the chair."
+  },
+  {
+    "word": "dog",
+    "part_of_speech": "noun",
+    "definition": "A common pet that barks.",
+    "example": "My dog likes to run in the park."
+  },
+  {
+    "word": "house",
+    "part_of_speech": "noun",
+    "definition": "A building where people live.",
+    "example": "Their house is big and beautiful."
+  },
+  {
+    "word": "car",
+    "part_of_speech": "noun",
+    "definition": "A vehicle with four wheels for transport.",
+    "example": "He drives a red car."
+  },
+  {
+    "word": "tree",
+    "part_of_speech": "noun",
+    "definition": "A tall plant with a trunk and branches.",
+    "example": "The tree has green leaves."
+  },
+  {
+    "word": "water",
+    "part_of_speech": "noun",
+    "definition": "A clear liquid you drink.",
+    "example": "I need a glass of water."
+  },
+  {
+    "word": "sun",
+    "part_of_speech": "noun",
+    "definition": "The star that gives light and heat to Earth.",
+    "example": "The sun is shining today."
+  },
+  {
+    "word": "moon",
+    "part_of_speech": "noun",
+    "definition": "The natural satellite of Earth, visible at night.",
+    "example": "The moon is full tonight."
+  },
+  {
+    "word": "big",
+    "part_of_speech": "adjective",
+    "definition": "Large in size.",
+    "example": "The elephant is very big."
+  },
+  {
+    "word": "small",
+    "part_of_speech": "adjective",
+    "definition": "Not large in size.",
+    "example": "The mouse is small."
+  },
+  {
+    "word": "happy",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing joy.",
+    "example": "She is happy with her new toy."
+  },
+  {
+    "word": "sad",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing sorrow.",
+    "example": "He is sad because he lost his pen."
+  },
+  {
+    "word": "hot",
+    "part_of_speech": "adjective",
+    "definition": "Having a high temperature.",
+    "example": "The soup is very hot."
+  },
+  {
+    "word": "cold",
+    "part_of_speech": "adjective",
+    "definition": "Having a low temperature.",
+    "example": "The ice is cold."
+  },
+  {
+    "word": "eat",
+    "part_of_speech": "verb",
+    "definition": "To put food in the mouth and swallow it.",
+    "example": "I eat breakfast every morning."
+  },
+  {
+    "word": "drink",
+    "part_of_speech": "verb",
+    "definition": "To take liquid into the mouth and swallow.",
+    "example": "She drinks water after running."
+  },
+  {
+    "word": "run",
+    "part_of_speech": "verb",
+    "definition": "To move quickly on foot.",
+    "example": "The children run in the park."
+  },
+  {
+    "word": "walk",
+    "part_of_speech": "verb",
+    "definition": "To move on foot at a slow pace.",
+    "example": "We walk to school every day."
+  },
+  {
+    "word": "sleep",
+    "part_of_speech": "verb",
+    "definition": "To rest with eyes closed, usually at night.",
+    "example": "I sleep for eight hours."
+  },
+  {
+    "word": "read",
+    "part_of_speech": "verb",
+    "definition": "To look at and understand written words.",
+    "example": "He reads a story every night."
+  },
+  {
+    "word": "write",
+    "part_of_speech": "verb",
+    "definition": "To mark letters or words on paper.",
+    "example": "She writes her name on the paper."
+  },
+  {
+    "word": "one",
+    "part_of_speech": "number",
+    "definition": "The number 1.",
+    "example": "I have one apple."
+  },
+  {
+    "word": "two",
+    "part_of_speech": "number",
+    "definition": "The number 2.",
+    "example": "There are two cats."
+  },
+  {
+    "word": "mother",
+    "part_of_speech": "noun",
+    "definition": "A female parent.",
+    "example": "My mother cooks dinner."
+  },
+  {
+    "word": "father",
+    "part_of_speech": "noun",
+    "definition": "A male parent.",
+    "example": "His father works in an office."
+  },
+  {
+    "word": "school",
+    "part_of_speech": "noun",
+    "definition": "A place where people learn.",
+    "example": "The school is near my house."
+  },
+  {
+    "word": "friend",
+    "part_of_speech": "noun",
+    "definition": "A person you like and know well.",
+    "example": "My friend is very kind."
+  },
+  {
+    "word": "day",
+    "part_of_speech": "noun",
+    "definition": "A period of 24 hours.",
+    "example": "Today is a sunny day."
+  }
+]
