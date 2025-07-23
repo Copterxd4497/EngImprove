@@ -1,192 +1,188 @@
 const vocabulary = {
-  abate: {
+  adapt: {
     part_of_speech: "verb",
-    definition: "To become less intense or widespread.",
-    thai_meaning: "ลดลง",
-    example: "The storm began to abate after hours of heavy rain.",
+    definition: "To adjust to new conditions.",
+    thai_meaning: "ปรับตัว",
+    example: "She quickly adapted to the new work environment.",
   },
-  candid: {
+  assess: {
+    part_of_speech: "verb",
+    definition: "To evaluate or judge the quality of something.",
+    thai_meaning: "ประเมิน",
+    example: "The teacher assessed the students' projects carefully.",
+  },
+  coherent: {
     part_of_speech: "adjective",
-    definition: "Truthful and straightforward; frank.",
-    thai_meaning: "ตรงไปตรงมา",
-    example: "Her candid feedback helped improve the project significantly.",
+    definition: "Logical and consistent.",
+    thai_meaning: "สอดคล้อง",
+    example: "Her argument was coherent and easy to follow.",
   },
-  debacle: {
+  compromise: {
     part_of_speech: "noun",
-    definition: "A sudden and disastrous failure.",
-    thai_meaning: "ความล้มเหลวอย่างสิ้นเชิง",
-    example: "The product launch was a debacle due to poor planning.",
+    definition: "An agreement where both sides give up something.",
+    thai_meaning: "การประนีประนอม",
+    example: "They reached a compromise after a long discussion.",
   },
-  elucidate: {
+  convey: {
     part_of_speech: "verb",
-    definition: "To make something clear; to explain.",
-    thai_meaning: "อธิบายให้ชัดเจน",
-    example:
-      "The professor elucidated the complex theory with simple examples.",
+    definition: "To express or communicate information.",
+    thai: "ถ่ายทอด",
+    example: "He conveyed his ideas clearly during the meeting.",
   },
-  fastidious: {
-    part_of_speech: "adjective",
-    definition: "Very attentive to detail; meticulous.",
-    thai_meaning: "พิถีพิถัน",
-    example: "His fastidious approach ensured the report was error-free.",
-  },
-  gregarious: {
-    part_of_speech: "adjective",
-    definition: "Sociable; enjoying the company of others.",
-    thai_meaning: "ชอบเข้าสังคม",
-    example: "Her gregarious nature made her the life of the party.",
-  },
-  harangue: {
+  dilemma: {
     part_of_speech: "noun",
-    definition: "A lengthy and aggressive speech.",
-    thai_meaning: "การพูดโจมตีอย่างยาวนาน",
-    example: "The politician’s harangue failed to convince the audience.",
+    definition: "A situation requiring a difficult choice.",
+    thai_meaning: "ภาวะกลืนไม่เข้าคายไม่ออก",
+    example: "She faced a dilemma about which job to accept.",
   },
-  impeccable: {
-    part_of_speech: "adjective",
-    definition: "Perfect; without flaws or errors.",
-    thai_meaning: "สมบูรณ์แบบ",
-    example: "Her impeccable manners impressed everyone at the event.",
-  },
-  juxtapose: {
+  enhance: {
     part_of_speech: "verb",
-    definition: "To place things side by side for comparison.",
-    thai_meaning: "วางเคียงกัน",
-    example: "The artist juxtaposed light and dark colors to create contrast.",
+    definition: "To improve the quality or value of something.",
+    thai_meaning: "ปรับปรุง",
+    example: "The new software enhanced the team's productivity.",
   },
-  lethargic: {
+  evident: {
     part_of_speech: "adjective",
-    definition: "Lacking energy; sluggish.",
-    thai_meaning: "เฉื่อยชา",
-    example: "After the long flight, he felt lethargic and unmotivated.",
+    definition: "Clearly seen or understood.",
+    thai_meaning: "ชัดเจน",
+    example: "His frustration was evident in his tone.",
+  },
+  facilitate: {
+    part_of_speech: "verb",
+    definition: "To make something easier.",
+    thai_meaning: "อำนวยความสะดวก",
+    example: "The new system facilitates faster communication.",
+  },
+  grasp: {
+    part_of_speech: "verb",
+    definition: "To understand something fully.",
+    thai_meaning: "เข้าใจ",
+    example: "She quickly grasped the main points of the lecture.",
+  },
+  hinder: {
+    part_of_speech: "verb",
+    definition: "To create difficulties or obstacles.",
+    thai_meaning: "ขัดขวาง",
+    example: "Bad weather hindered the construction work.",
+  },
+  implement: {
+    part_of_speech: "verb",
+    definition: "To put a plan or decision into action.",
+    thai_meaning: "ดำเนินการ",
+    example: "The company implemented new safety measures.",
+  },
+  inevitable: {
+    part_of_speech: "adjective",
+    definition: "Certain to happen; unavoidable.",
+    thai_meaning: "หลีกเลี่ยงไม่ได้",
+    example: "Change is inevitable in a fast-moving industry.",
+  },
+  insight: {
+    part_of_speech: "noun",
+    definition: "A deep understanding of something.",
+    thai_meaning: "ความเข้าใจลึกซึ้ง",
+    example: "Her insights into the problem were very helpful.",
   },
   mitigate: {
     part_of_speech: "verb",
-    definition: "To make less severe or intense.",
+    definition: "To make something less severe or serious.",
     thai_meaning: "บรรเทา",
-    example:
-      "They took steps to mitigate the environmental impact of the project.",
+    example: "They took steps to mitigate the environmental impact.",
   },
-  nefarious: {
+  mutual: {
     part_of_speech: "adjective",
-    definition: "Wicked, villainous, or despicable.",
-    thai_meaning: "ชั่วร้าย",
-    example: "The villain’s nefarious plan was uncovered just in time.",
+    definition: "Shared by two or more parties.",
+    thai_meaning: "ร่วมกัน",
+    example: "Their mutual respect strengthened their friendship.",
   },
-  obstreperous: {
-    part_of_speech: "adjective",
-    definition: "Noisy and difficult to control.",
-    thai_meaning: "เอะอะโวยวาย",
-    example: "The obstreperous crowd disrupted the speaker’s presentation.",
-  },
-  pragmatic: {
-    part_of_speech: "adjective",
-    definition: "Dealing with things sensibly and realistically.",
-    thai_meaning: "ปฏิบัติได้จริง",
-    example: "Her pragmatic approach solved the issue efficiently.",
-  },
-  quell: {
+  perceive: {
     part_of_speech: "verb",
-    definition: "To put an end to, typically by force.",
-    thai_meaning: "ปราบปราม",
-    example: "The police acted quickly to quell the riot.",
+    definition: "To become aware of or understand something.",
+    thai_meaning: "รับรู้",
+    example: "She perceived a change in his attitude.",
   },
-  rhetoric: {
-    part_of_speech: "noun",
-    definition: "The art of persuasive speaking or writing.",
-    thai_meaning: "วาทศิลป์",
-    example:
-      "His speech was full of powerful rhetoric that swayed the audience.",
+  precise: {
+    part_of_speech: "adjective",
+    definition: "Exact and accurate.",
+    thai_meaning: "แม่นยำ",
+    example: "His instructions were precise and easy to follow.",
   },
-  scrutinize: {
+  profound: {
+    part_of_speech: "adjective",
+    definition: "Deep or intense; having great meaning.",
+    thai_meaning: "ลึกซึ้ง",
+    example: "Her speech had a profound impact on the audience.",
+  },
+  pursue: {
     part_of_speech: "verb",
-    definition: "To examine closely and carefully.",
-    thai_meaning: "ตรวจสอบอย่างละเอียด",
-    example: "The committee scrutinized the proposal for any flaws.",
+    definition: "To follow or seek to achieve something.",
+    thai_meaning: "ไล่ตาม",
+    example: "He decided to pursue a career in medicine.",
   },
-  tenuous: {
+  reluctant: {
     part_of_speech: "adjective",
-    definition: "Very weak or slight; insubstantial.",
-    thai_meaning: "บางเบา",
-    example: "The connection between the two events was tenuous at best.",
+    definition: "Unwilling or hesitant.",
+    thai_meaning: "ไม่เต็มใจ",
+    example: "She was reluctant to share her opinion.",
   },
-  ubiquitous: {
-    part_of_speech: "adjective",
-    definition: "Present or found everywhere.",
-    thai_meaning: "มีอยู่ทุกหนแห่ง",
-    example: "Smartphones are ubiquitous in modern society.",
-  },
-  venerate: {
+  resolve: {
     part_of_speech: "verb",
-    definition: "To regard with great respect or reverence.",
-    thai_meaning: "เคารพนับถือ",
-    example: "The community venerates its elders for their wisdom.",
+    definition: "To find a solution to a problem.",
+    thai_meaning: "แก้ไข",
+    example: "They resolved the issue through open discussion.",
   },
-  wary: {
-    part_of_speech: "adjective",
-    definition: "Cautious about possible dangers or problems.",
-    thai_meaning: "ระมัดระวัง",
-    example:
-      "She was wary of trusting strangers with her personal information.",
-  },
-  zealous: {
-    part_of_speech: "adjective",
-    definition: "Showing great enthusiasm or devotion.",
-    thai_meaning: "กระตือรือร้น",
-    example: "He was a zealous supporter of the environmental movement.",
-  },
-  ambiguous: {
-    part_of_speech: "adjective",
-    definition: "Open to more than one interpretation; unclear.",
-    thai_meaning: "คลุมเครือ",
-    example: "The instructions were ambiguous, causing confusion.",
-  },
-  bolster: {
+  restrain: {
     part_of_speech: "verb",
-    definition: "To support or strengthen.",
-    thai_meaning: "สนับสนุน",
-    example: "The new evidence bolstered their argument.",
+    definition: "To prevent or hold back.",
+    thai_meaning: "ยับยั้ง",
+    example: "He restrained his anger during the argument.",
   },
-  conundrum: {
-    part_of_speech: "noun",
-    definition: "A confusing or difficult problem.",
-    thai_meaning: "ปัญหายุ่งยาก",
-    example: "The ethical conundrum puzzled the philosophers.",
+  subtle: {
+    part_of_speech: "adjective",
+    definition: "Not obvious; delicate or precise.",
+    thai_meaning: "ละเอียดอ่อน",
+    example: "The artist used subtle colors to create a calm effect.",
   },
-  disparage: {
+  sustain: {
     part_of_speech: "verb",
-    definition: "To speak of in a belittling or critical way.",
-    thai_meaning: "ดูหมิ่น",
-    example:
-      "He didn’t mean to disparage her efforts, but his words upset her.",
+    definition: "To maintain or keep something going.",
+    thai_meaning: "รักษา",
+    example: "They worked hard to sustain their business growth.",
   },
-  ephemeral: {
+  tentative: {
     part_of_speech: "adjective",
-    definition: "Lasting for a very short time.",
-    thai_meaning: "ชั่วคราว",
-    example: "The beauty of the sunset was ephemeral but breathtaking.",
+    definition: "Not certain or fixed; hesitant.",
+    thai_meaning: "ไม่แน่นอน",
+    example: "They made a tentative plan for the trip.",
   },
-  fortuitous: {
+  thorough: {
     part_of_speech: "adjective",
-    definition: "Happening by chance, often in a fortunate way.",
-    thai_meaning: "เกิดขึ้นโดยบังเอิญ",
-    example: "Their fortuitous meeting led to a lifelong friendship.",
+    definition: "Complete and detailed.",
+    thai_meaning: "ละเอียดถี่ถ้วน",
+    example: "Her thorough research impressed the team.",
   },
-  intransigent: {
+  undertake: {
+    part_of_speech: "verb",
+    definition: "To agree to do or start something.",
+    thai_meaning: "รับผิดชอบ",
+    example: "She undertook the challenging task with confidence.",
+  },
+  valid: {
     part_of_speech: "adjective",
-    definition: "Refusing to compromise or change one’s position.",
-    thai_meaning: "ดื้อรั้น",
-    example: "The intransigent negotiator refused to budge on the terms.",
+    definition: "Based on truth or reason; acceptable.",
+    thai_meaning: "ถูกต้อง",
+    example: "His argument was valid and well-supported.",
   },
-  crib: {
-    part_of_speech: "noun",
-    definition: "A small bed for an infant or young child.",
-    thai_meaning: "เตียงเด็ก",
-    example: "The baby slept peacefully in the crib.",
+  yield: {
+    part_of_speech: "verb",
+    definition: "To produce or provide something.",
+    thai_meaning: "ให้ผล",
+    example: "The new method yielded better results.",
   },
 };
 
 const word_random = document.querySelector(".word-random");
+const verbWord = document.querySelector(".verb-word");
 
 const button = document.querySelector(".button-send");
 const refresh = document.querySelector(".refresh-button");
@@ -194,12 +190,16 @@ const refresh = document.querySelector(".refresh-button");
 const inputWord = document.querySelector(".input-words");
 let currentWord = ""; // ⬅️ Store the current random word globally
 
-if (refresh && word_random && inputWord && button) {
+if (refresh && word_random && inputWord && button && verbWord) {
   refresh.addEventListener("click", () => {
     const random = Math.floor(Math.random() * Object.keys(vocabulary).length);
     const key = Object.keys(vocabulary).sort();
     currentWord = key[random]; // ⬅️ Save to global variable
-    word_random.innerText = currentWord;
+
+    word_random.innerText = vocabulary[currentWord].definition;
+    verbWord.textContent = vocabulary[currentWord].part_of_speech;
+
+    console.log(currentWord);
   });
 
   button.addEventListener("click", () => {
